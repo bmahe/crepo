@@ -1,2 +1,2 @@
-include LICENSE README *.py 
+include LICENSE README *.py crepo/*.py
 recursive-include shell-tests *
