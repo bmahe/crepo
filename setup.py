@@ -8,7 +8,9 @@ setup(
     url="http://github.com/cloudera/crepo/tree/master",
     maintainer="Chad Metcalf",
     maintainer_email="chad@cloudera.com",
-    py_modules=['crepo', 'git_command', 'git_repo', 'manifest', 'trace' ],
+    py_modules=['crepo'],
+    packages=['crepo'],
+    package_dir={'crepo': 'crepo'},
     entry_points = { 'console_scripts': [ 'crepo = crepo:main', ], },
     install_requires = ['setuptools', 'simplejson'],
 )
