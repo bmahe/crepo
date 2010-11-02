@@ -11,6 +11,6 @@ setup(
     py_modules=['crepo'],
     packages=['crepo'],
     package_dir={'crepo': 'crepo'},
-    entry_points = { 'console_scripts': [ 'crepo = crepo:main', ], },
+    entry_points = { 'console_scripts': [ 'crepo = crepo.crepo:main', ], },
     install_requires = ['setuptools', 'simplejson'],
 )

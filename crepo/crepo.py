@@ -6,9 +6,9 @@ import optparse
 import manifest
 import logging
 import textwrap
-from crepo.git_command import GitCommand
-from crepo.git_repo import GitRepo
-import crepo.trace
+from git_command import GitCommand
+from git_repo import GitRepo
+import trace
 
 LOADED_MANIFEST = None
 
