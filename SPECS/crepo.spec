@@ -25,7 +25,7 @@ references without explicit commits to the containing repository.
 
 %prep
 %setup -q
-
+chmod  644 bootstrap.py crepo/crepo.py setup.py test.py
 
 %build
 %{__python} setup.py build
@@ -50,6 +50,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 11 2010 Bruno Mahe <bruno@cloudera.com> - 0.1.8-2
+- Change permissions to 644
+
 * Mon Oct 4 2010 Bruno Mahe <bruno@cloudera.com> - 0.1.8-1
 - Initial package
 
