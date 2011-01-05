@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Tue Jan 04 2011 Bruno Mahe <bruno@cloudera.com> - 0.1.8-2
+* Tue Jan 04 2011 Bruno Mahe <bruno@cloudera.com> - 0.1.8-3
 - Make package working for Suse based distributions
 
 * Thu Nov 11 2010 Bruno Mahe <bruno@cloudera.com> - 0.1.8-2
